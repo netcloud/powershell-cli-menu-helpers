@@ -31,7 +31,7 @@ Install-Module -Name 'powershell-cli-menu-helpers'
 - Obtain the source
 
 ```
-git clone https://github.com/netcloudag/powershell-cli-menu-helpers
+git clone https://github.com/netcloudag/powershell-cli-menu-helpers.git
 ```
 
 - Navigate to the source directory
@@ -146,7 +146,7 @@ cd .\example\
 
 ## Contributing
 
-Contributions are welcome, please refere to [CONTRIBUTING.md](https://github.com/netcloudag/powershell-cli-menu-helpers/CONTRIBUTING.md) for details.
+Contributions are welcome, please refere to [CONTRIBUTING.md](https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/CONTRIBUTING.md) for details.
 
 ## Creating a release
 
@@ -161,8 +161,8 @@ Install-Module -Name 'PSScriptAnalyzer'
 
 - Add / modify the test cases inside the folder `.\tests`
 - Run the tests (`.\test.ps1`)
-- Update the [CHANGELOG.md](https://github.com/netcloudag/powershell-cli-menu-helpers/CHANGELOG.md)
-- Update the `ModuleVersion` inside the [config.json](https://github.com/netcloudag/powershell-cli-menu-helpers/config.json)
+- Update the [CHANGELOG.md](https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/CHANGELOG.md)
+- Update the `ModuleVersion` inside the [config.json](https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/config.json)
 - Add release tag on github
 - Run the script `.\build.ps1` to create a new build
 - Run the scirpt `.\publish.ps1` to publish the build to PowerShell Gallery
@@ -175,4 +175,4 @@ Install-Module -Name 'PSScriptAnalyzer'
 ## License
 
 This project is licensed under MIT with Copyright (c) 2020 Netcloud AG. \
-See the [LICENSE.md](https://github.com/netcloudag/powershell-cli-menu-helpers/LICENSE.md) file for details.
+See the [LICENSE.md](https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/LICENSE.md) file for details.
