@@ -11,12 +11,12 @@
   "ProjectUri": "https://github.com/netcloudag/powershell-cli-menu-helpers",
   "ReleaseNotes": "https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/CHANGELOG.md",
   "Tags": [
-    "cli menu",
+    "cli-menu",
     "menu",
-    "select item",
-    "list",
-    "filter item",
-    "cli menu helpers"
+    "select-item",
+    "list-item",
+    "filter-item",
+    "cli-menu-helpers"
   ],
   "IconUri": "https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/assets/images/ncdev_logo.png"
 }
