@@ -1,0 +1,1 @@
+$user_rdp_connections = $menu_script_root_dir + '\files\rdp\connections.json'
