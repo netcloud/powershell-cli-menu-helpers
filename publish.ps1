@@ -13,6 +13,6 @@ if (-not (Test-Path -Path ('.\build\' + $Config.ModuleName))) {
 [System.String]$NuGetApiKey = Read-Host -Prompt 'Please enter the NuGetApiKey'
 
 # Publish the build to PSGallery
-Publish-Module -Name ('.\build\' + $Config.ModuleName) `
+Publish-Module -Path ('.\build\' + $Config.ModuleName) `
     -Repository 'PSGallery' `
-    -NuGetApiKey $NuGetApiKey
+    -NuGetApiKey $NuGetApiKey -Verbose
