@@ -1,6 +1,16 @@
 #Requires -Version 5.1
 $ErrorActionPreference = 'Stop'
 
+# Get cert path
+[System.String]$CertPath = Read-Host -Prompt 'Please enter cert path (Cert:\CurrentUser\My\71C28FC065F(...)367825B1AF)'
+
+if (-not (Test-Path -Path $CertPath)) {
+    Write-Host -Object "Cert $CertPath not found!"
+    return
+}
+
+$Cert = Get-Item -Path $CertPath
+
 # Remove old build if available
 if (Test-Path -Path '.\build') {
     Remove-Item -Path '.\build' -Recurse -Force
@@ -40,4 +50,9 @@ Set-Content -Path ('.\build\' + $Config.ModuleName + '\' + $Config.ModuleName + 
 # Create the powershell module
 foreach ($Funciton in (Get-ChildItem -Path '.\functions')) {
     Get-Content -Path $Funciton.FullName -Raw | Add-Content -Path ('.\build\' + $Config.ModuleName + '\' + $Config.ModuleName + '.psm1')
+}
+
+# Sign the generated files
+foreach ($File in (Get-ChildItem -Path '.\build\*' -Recurse)) {
+    Set-AuthenticodeSignature -FilePath $File.FullName -Certificate $Cert -TimestampServer 'http://timestamp.digicert.com'
 }

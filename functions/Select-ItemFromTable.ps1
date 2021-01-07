@@ -67,7 +67,7 @@
         }
 
         .LINK
-        https://github.com/netcloudag/powershell-cli-menu-helpers
+        https://github.com/netcloud/powershell-cli-menu-helpers
     #>
     [OutputType([System.Management.Automation.PSObject[]])]
     Param(

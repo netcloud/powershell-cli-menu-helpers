@@ -1,6 +1,21 @@
 # powershell cli menu helpers
 
-[[_TOC_]]
+- [powershell cli menu helpers](#powershell-cli-menu-helpers)
+  - [Introduction](#introduction)
+  - [Installation](#installation)
+    - [From PowerShell Gallery](#from-powershell-gallery)
+    - [From Source](#from-source)
+  - [Usage](#usage)
+    - [Menu rendering](#menu-rendering)
+    - [List rendering](#list-rendering)
+    - [Table rendering](#table-rendering)
+  - [Example](#example)
+  - [Contributing](#contributing)
+  - [Creating a release](#creating-a-release)
+    - [Requirements](#requirements)
+    - [Steps](#steps)
+  - [Authors](#authors)
+  - [License](#license)
 
 ## Introduction
 
@@ -31,7 +46,7 @@ Install-Module -Name 'powershell-cli-menu-helpers'
 - Obtain the source
 
 ```
-git clone https://github.com/netcloudag/powershell-cli-menu-helpers.git
+git clone https://github.com/netcloud/powershell-cli-menu-helpers.git
 ```
 
 - Navigate to the source directory
@@ -146,7 +161,7 @@ cd .\example\
 
 ## Contributing
 
-Contributions are welcome, please refere to [CONTRIBUTING.md](https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/CONTRIBUTING.md) for details.
+Contributions are welcome, please refere to [CONTRIBUTING.md](https://github.com/netcloud/powershell-cli-menu-helpers/blob/master/CONTRIBUTING.md) for details.
 
 ## Creating a release
 
@@ -161,8 +176,8 @@ Install-Module -Name 'PSScriptAnalyzer'
 
 - Add / modify the test cases inside the folder `.\tests`
 - Run the tests (`.\test.ps1`)
-- Update the [CHANGELOG.md](https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/CHANGELOG.md)
-- Update the `ModuleVersion` inside the [config.json](https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/config.json)
+- Update the [CHANGELOG.md](https://github.com/netcloud/powershell-cli-menu-helpers/blob/master/CHANGELOG.md)
+- Update the `ModuleVersion` inside the [config.json](https://github.com/netcloud/powershell-cli-menu-helpers/blob/master/config.json)
 - Add release tag on github
 - Run the script `.\build.ps1` to create a new build
 - Run the scirpt `.\publish.ps1` to publish the build to PowerShell Gallery
@@ -175,4 +190,4 @@ Install-Module -Name 'PSScriptAnalyzer'
 ## License
 
 This project is licensed under MIT with Copyright (c) 2020 Netcloud AG. \
-See the [LICENSE.md](https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/LICENSE.md) file for details.
+See the [LICENSE.md](https://github.com/netcloud/powershell-cli-menu-helpers/blob/master/LICENSE.md) file for details.

@@ -1,22 +1,25 @@
 {
   "ModuleName": "powershell-cli-menu-helpers",
-  "ModuleVersion": "0.0.1",
+  "ModuleVersion": "0.0.2",
   "GUID": "2876be78-754c-4b00-b390-d871c61ce66b",
   "Author": "Patrick Grazioli",
   "CompanyName": "Netcloud AG",
   "Copyright": "2020 Netcloud AG. All rights reserved.",
-  "LicenseUri": "https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/LICENSE.md",
-  "Description": "https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/README.md",
+  "LicenseUri": "https://github.com/netcloud/powershell-cli-menu-helpers/blob/master/LICENSE.md",
+  "Description": "https://github.com/netcloud/powershell-cli-menu-helpers/blob/master/README.md",
   "PowerShellVersion": "5.1",
-  "ProjectUri": "https://github.com/netcloudag/powershell-cli-menu-helpers",
-  "ReleaseNotes": "https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/CHANGELOG.md",
+  "ProjectUri": "https://github.com/netcloud/powershell-cli-menu-helpers",
+  "ReleaseNotes": "https://github.com/netcloud/powershell-cli-menu-helpers/blob/master/CHANGELOG.md",
   "Tags": [
     "cli-menu",
     "menu",
     "select-item",
     "list-item",
     "filter-item",
-    "cli-menu-helpers"
+    "cli-menu-helpers",
+    "cli",
+    "select",
+    "filter"
   ],
-  "IconUri": "https://github.com/netcloudag/powershell-cli-menu-helpers/blob/master/assets/images/ncdev_logo.png"
+  "IconUri": "https://github.com/netcloud/powershell-cli-menu-helpers/blob/master/assets/images/ncdev_logo.png"
 }
