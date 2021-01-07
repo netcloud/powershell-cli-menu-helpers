@@ -22,7 +22,7 @@ We use `<MAJOR>.<MINOR>.<PATCH>` as versioning policy.
 <Patch> = Backwards Compatible / Bug Fixes
 ```
 
-For the versions available, see the [tags on this repository](https://github.com/netcloudag/powershell-cli-menu-helpers/tags).
+For the versions available, see the [tags on this repository](https://github.com/netcloud/powershell-cli-menu-helpers/tags).
 
 ### Coding Convention
 
