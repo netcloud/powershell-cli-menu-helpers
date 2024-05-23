@@ -1,1 +1,1 @@
-$user_rdp_connections = $menu_script_root_dir + '\files\rdp\connections.json'
+$user_rdp_connections = Join-Path -Path $menu_script_root_dir -ChildPath '\files\rdp\connections.json'
